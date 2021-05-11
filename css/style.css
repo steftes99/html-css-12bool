@@ -2,14 +2,11 @@ body{
     width:80%;
     margin: auto;
 }
-.col-xs-1{
+[class*="col-"]{
     background-color: #ffc0cb;
     border: 1px solid black;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.col-xs-1 > p{
-
 }
